@@ -28,11 +28,10 @@ Discord nick: flowerx_dc <br>
 Love: Music, Trucks, Game-FarmingSimulator17, Old Things, Writing, Coding (Sometimes), Offline  Things. <br>
 
 ## + Aditional:
-rn = right now | lnr = learning <br>
-**(rn 🪷):** <br>
+**(right now 🪷):** <br>
 📖 Natural: Polish, English <br>
 ⚙️ Programing: Rust, Python, Asm <br>
-**(lnr 🌺):** <br>
+**(learning 🌺):** <br>
 📖 Natural: Czech, Rusian, Japan <br>
 ⚙️ Programing: Rust, Asm, C, Python, C++, Html, Css <br>
 
