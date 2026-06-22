@@ -1,114 +1,165 @@
 <div align="center">
 
-<!-- NEONOWY NAGŁÓWEK / KARTA PROFILU -->
+<!-- GŁÓWNA KARTA PROFILU (NEON CYBER-PASTEL BOX) -->
 <div style="
-  background: linear-gradient(135deg, #120c1f 0%, #060112 100%);
-  border: 2px solid #ff007f;
-  border-radius: 16px;
-  padding: 30px;
-  max-width: 750px;
-  box-shadow: 0 0 20px rgba(255, 0, 127, 0.2), inset 0 0 15px rgba(0, 242, 254, 0.1);
-  font-family: 'Segoe UI', Roboto, sans-serif;
-  color: #fff;
+  background: linear-gradient(135deg, #0d0814 0%, #05020a 100%);
+  border: 1.5px solid #ff007f;
+  border-radius: 12px;
+  padding: 18px 22px;
+  max-width: 700px;
+  box-shadow: 0 0 15px rgba(255, 0, 127, 0.15), inset 0 0 10px rgba(0, 242, 254, 0.05);
+  font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+  color: #e0e0e0;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 ">
-  
-  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
-    <!-- LEWA STRONA: INFO -->
-    <div>
-      <h1 style="
-        margin: 0 0 15px 0; 
-        font-size: 2.5rem; 
-        color: #00f2fe; 
-        text-shadow: 0 0 10px #00f2fe, 0 0 20px rgba(0, 242, 254, 0.5);
-      ">
-        ⚡ COFFDAGE
-      </h1>
-      <p style="font-size: 1.1rem; margin: 6px 0; color: #e0e0e0;">
-        <strong style="color: #ff007f; text-shadow: 0 0 5px rgba(255,0,127,0.4);">Nick:</strong> coffdage
-      </p>
-      <p style="font-size: 1.1rem; margin: 6px 0; color: #e0e0e0;">
-        <strong style="color: #ff007f;">Rola:</strong> Fullstack Developer / Cyber Security Enthusiast
-      </p>
-      <p style="font-size: 1.1rem; margin: 6px 0; color: #e0e0e0;">
-        <strong style="color: #ff007f;">Lokalizacja:</strong> Matrix / Poland 🇵🇱
-      </p>
-      <p style="font-size: 1.1rem; margin: 6px 0; color: #e0e0e0;">
-        <strong style="color: #ff007f;">Motto:</strong> "Turning coffee into neon code." ☕✨
-      </p>
-    </div>
 
-    <!-- PRAWA STRONA: GIF / GRAFIKA PROFILOWA (Możesz zmienić link na swój) -->
-    <div>
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z0cmN0bmI1Nzg0MThkMXR4Z2g1M3FrOHR3bWZ6bXFlZnd6cm1pdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/v9w4AitKz3O4o55G6N/giphy.gif" width="120" style="filter: drop-shadow(0 0 10px #ff007f);" alt="Neon Astro">
-    </div>
+  <!-- TOP LINE: NICK I IKONY -->
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+    <h2 style="margin: 0; font-size: 1.4rem; color: #00f2fe; text-shadow: 0 0 8px rgba(0, 242, 254, 0.6); font-weight: 700; letter-spacing: 0.5px;">
+      🪷 coffdage
+    </h2>
+    <span style="font-size: 1.2rem; filter: drop-shadow(0 0 5px rgba(255, 0, 127, 0.5));">🌸 🩵 🌺</span>
   </div>
 
-  <hr style="border: 0; height: 1px; background: linear-gradient(to right, #ff007f, #00f2fe, transparent); margin: 20px 0;">
+  <!-- LEKKA LINIA PODZIAŁU -->
+  <div style="height: 1px; background: linear-gradient(to right, #ff007f, #00f2fe, transparent); margin-bottom: 12px;"></div>
 
-  <!-- LINKI I STRONY -->
-  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <!-- GRID Z PROFILIEM I INTERESAMI -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
+    
+    <!-- LEWA STRONA: +PROFILE -->
+    <div>
+      <h3 style="margin: 0 0 8px 0; font-size: 0.9rem; color: #ff007f; text-transform: uppercase; letter-spacing: 1px;">🗃️ Profile Details</h3>
+      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.85rem; line-height: 1.5; color: #b5b5b5;">
+        <li><strong style="color: #00f2fe;">Nick:</strong> coffdage</li>
+        <li><strong style="color: #00f2fe;">Organization:</strong> coffdage-intercom</li>
+        <li><strong style="color: #00f2fe;">Country:</strong> Poland 🇵🇱</li>
+        <li><strong style="color: #00f2fe;">YouTube:</strong> @coffdage</li>
+        <li><strong style="color: #00f2fe;">Discord:</strong> flowerx_dc</li>
+        <li style="margin-top: 4px; line-height: 1.4;"><strong style="color: #ff007f;">🩵 Love:</strong> Music, Trucks, Game-FarmingSimulator17, Old Things, Writing, Coding (Sometimes), Offline Things.</li>
+      </ul>
+    </div>
+
+    <!-- PRAWA STRONA: +INTEREST -->
+    <div>
+      <h3 style="margin: 0 0 8px 0; font-size: 0.9rem; color: #ff007f; text-transform: uppercase; letter-spacing: 1px;">⚙️ Interests</h3>
+      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.85rem; line-height: 1.6; color: #b5b5b5;">
+        <li><strong style="color: #e0e0e0;">🖥️ Developer:</strong> Rust</li>
+        <li><strong style="color: #e0e0e0;">📖 Writer:</strong> Anything</li>
+        <li><strong style="color: #e0e0e0;">🖥️ Informatic:</strong> Technic Informatic (School)</li>
+        <li><strong style="color: #e0e0e0;">⚙️ Engineer:</strong> (Soon)</li>
+        <li><strong style="color: #e0e0e0;">🎁 Hobbyist:</strong> Rust, Truck Lover, Writer, Play Farming Simulator 17</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- LINIA PODZIAŁU PRZED LINKAMI -->
+  <div style="height: 1px; background: linear-gradient(to right, transparent, #00f2fe, transparent); margin: 15px 0 12px 0;"></div>
+
+  <!-- SEKCJA +LINKS (PASTELOWE GUZIKI) -->
+  <div style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-start;">
     <a href="https://coffdage.com" target="_blank" style="text-decoration: none;">
-      <span style="background: rgba(0, 242, 254, 0.1); border: 1px solid #00f2fe; color: #00f2fe; padding: 6px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; box-shadow: 0 0 8px rgba(0, 242, 254, 0.3);">🌐 Website</span>
+      <span style="background: rgba(0, 242, 254, 0.06); border: 1px solid rgba(0, 242, 254, 0.4); color: #00f2fe; padding: 4px 10px; border-radius: 6px; font-weight: 600; font-size: 0.75rem; transition: 0.3s; display: inline-block;">🌐 Website</span>
     </a>
     <a href="https://github.com/coffdage" target="_blank" style="text-decoration: none;">
-      <span style="background: rgba(255, 0, 127, 0.1); border: 1px solid #ff007f; color: #ff007f; padding: 6px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; box-shadow: 0 0 8px rgba(255, 0, 127, 0.3);">🐙 GitHub Profile</span>
+      <span style="background: rgba(255, 0, 127, 0.06); border: 1px solid rgba(255, 0, 127, 0.4); color: #ff007f; padding: 4px 10px; border-radius: 6px; font-weight: 600; font-size: 0.75rem; transition: 0.3s; display: inline-block;">🗃️ GitHub</span>
     </a>
-    <a href="https://github.com/coffdage/KONTO_REPO" target="_blank" style="text-decoration: none;">
-      <span style="background: rgba(157, 0, 255, 0.1); border: 1px solid #9d00ff; color: #9d00ff; padding: 6px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; box-shadow: 0 0 8px rgba(157, 0, 255, 0.3);">📁 Main Repo</span>
+    <a href="https://github.com/coffdage-intercom" target="_blank" style="text-decoration: none;">
+      <span style="background: rgba(157, 0, 255, 0.06); border: 1px solid rgba(157, 0, 255, 0.4); color: #9d00ff; padding: 4px 10px; border-radius: 6px; font-weight: 600; font-size: 0.75rem; transition: 0.3s; display: inline-block;">🫱🏻‍🫲🏿 Org</span>
     </a>
-    <a href="https://github.com/ORGANIZATION_NAME" target="_blank" style="text-decoration: none;">
-      <span style="background: rgba(255, 170, 0, 0.1); border: 1px solid #ffaa00; color: #ffaa00; padding: 6px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; box-shadow: 0 0 8px rgba(255, 170, 0, 0.3);">🏢 Organization</span>
+    <a href="https://github.com/coffdage-intercom/rust-lessons" target="_blank" style="text-decoration: none;">
+      <span style="background: rgba(255, 170, 0, 0.06); border: 1px solid rgba(255, 170, 0, 0.4); color: #ffaa00; padding: 4px 10px; border-radius: 6px; font-weight: 600; font-size: 0.75rem; transition: 0.3s; display: inline-block;">🦀 Rust Lessons</span>
+    </a>
+    <a href="https://www.youtube.com/@coffdage" target="_blank" style="text-decoration: none;">
+      <span style="background: rgba(255, 0, 0, 0.06); border: 1px solid rgba(255, 0, 0, 0.4); color: #ff3333; padding: 4px 10px; border-radius: 6px; font-weight: 600; font-size: 0.75rem; transition: 0.3s; display: inline-block;">📷 YouTube</span>
     </a>
   </div>
 
 </div>
 
-<!-- SEKCOJE Z TECHNOLOGIAMI -->
-<div style="max-width: 750px; text-align: left; font-family: 'Segoe UI', sans-serif;">
+<!-- DOLNA SEKCJA: STATUSY, JĘZYKI I STATYSTYKI -->
+<div style="max-width: 700px; text-align: left; font-family: 'Segoe UI', sans-serif; padding: 0 10px;">
 
-  <!-- JĘZYKI I NARZĘDZIA KTÓRE ZNAM -->
-  <h2 style="color: #ff007f; text-shadow: 0 0 8px rgba(255,0,127,0.5); font-size: 1.5rem; margin-top: 30px;">🛠️ Technologies & Languages I Know</h2>
-  <p style="margin-bottom: 15px;">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TS">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
-    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node">
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-    <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  </p>
+  <!-- AKTUALNA PRACA / MAIN WORK -->
+  <div style="background: rgba(255, 255, 255, 0.02); border-left: 3px solid #ffaa00; padding: 8px 12px; margin-bottom: 20px; border-radius: 0 6px 6px 0;">
+    <p style="margin: 0; font-size: 0.85rem; color: #d0d0d0;">
+      <strong style="color: #ffaa00;">🛠️ Main Work:</strong> 
+      Rust <span style="color: #888;">---</span> 
+      <a href="https://github.com/coffdage-intercom/rust-lessons" style="color: #00f2fe; text-decoration: none; font-weight: 600;">[rust-lessons]</a> 
+      <span style="color: #888;">---</span> Work: <b>Alone</b>
+    </p>
+  </div>
 
-  <!-- JĘZYKI KTÓRYCH SIĘ UCZĘ -->
-  <h2 style="color: #00f2fe; text-shadow: 0 0 8px rgba(0,242,254,0.5); font-size: 1.5rem; margin-top: 25px;">🚀 Currently Learning</h2>
-  <p style="margin-bottom: 15px;">
-    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  </p>
+  <!-- POLA AKTYWNOŚCI (RN / LNR) -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 25px;">
+    
+    <!-- RIGHT NOW (rn) -->
+    <div style="border: 1px solid rgba(0, 242, 254, 0.2); padding: 12px; border-radius: 8px; background: rgba(0, 242, 254, 0.01);">
+      <h4 style="margin: 0 0 8px 0; font-size: 0.85rem; color: #00f2fe; text-transform: uppercase; letter-spacing: 0.5px;">📖 Right Now (rn)</h4>
+      <p style="margin: 4px 0; font-size: 0.8rem; color: #b5b5b5;"><strong style="color: #e0e0e0;">🗣️ Natural:</strong> Polish, English</p>
+      <p style="margin: 4px 0; font-size: 0.8rem; color: #b5b5b5;"><strong style="color: #e0e0e0;">🖥️ Tech:</strong> Rust, Python, Asm</p>
+    </div>
 
-  <!-- JĘZYKI NATURALNE -->
-  <h2 style="color: #9d00ff; text-shadow: 0 0 8px rgba(157,0,255,0.5); font-size: 1.5rem; margin-top: 25px;">🗣️ Natural Languages</h2>
-  <p style="font-size: 1.1rem; color: #e0e0e0; line-height: 1.6;">
-    🇵🇱 <b>Polski</b> - Native (Ojczysty)<br>
-    🇬🇧 <b>English</b> - Advanced (B2/C1 - Płynny w dokumentacji i rozmowie)<br>
-    🇩🇪 <b>Deutsch</b> - Learning (Podstawy / W trakcie nauki)
-  </p>
+    <!-- LEARNING (lnr) -->
+    <div style="border: 1px solid rgba(255, 0, 127, 0.2); padding: 12px; border-radius: 8px; background: rgba(255, 0, 127, 0.01);">
+      <h4 style="margin: 0 0 8px 0; font-size: 0.85rem; color: #ff007f; text-transform: uppercase; letter-spacing: 0.5px;">🌸 Learning (lnr)</h4>
+      <p style="margin: 4px 0; font-size: 0.8rem; color: #b5b5b5;"><strong style="color: #e0e0e0;">🗣️ Natural:</strong> Czech, Russian, Japan</p>
+      <p style="margin: 4px 0; font-size: 0.8rem; color: #b5b5b5;"><strong style="color: #e0e0e0;">🖥️ Tech:</strong> Rust, Asm, C, Python, C++, HTML, CSS</p>
+    </div>
 
-  <!-- GITHUB STATS Z NEONOWYM MOTYWEM -->
-  <h2 style="color: #ffaa00; text-shadow: 0 0 8px rgba(255,170,0,0.5); font-size: 1.5rem; margin-top: 30px;">📊 GitHub Statistics</h2>
-  <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px;">
-    <img src="https://github-readme-stats.vercel.app/api?username=coffdage&show_icons=true&theme=cyberpunk&hide_border=false" alt="Coffdage Stats" style="height: 150px;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coffdage&layout=compact&theme=cyberpunk&hide_border=false" alt="Top Langs" style="height: 150px;">
+  </div>
+
+  <!-- SKALOWALNE STATYSTYKI (KOD, GADANIE, JĘZYKI) -->
+  <h3 style="margin: 0 0 12px 0; font-size: 0.95rem; color: #e0e0e0; letter-spacing: 0.5px;">📊 Custom Neon Stats</h3>
+  
+  <div style="display: flex; flex-direction: column; gap: 10px; background: rgba(255,255,255,0.01); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+    
+    <!-- Code Docs -->
+    <div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 3px; color: #aaa;">
+        <span>📖 Code Documentations</span>
+        <span>English 63% | Polish 37%</span>
+      </div>
+      <div style="display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: #222;">
+        <div style="width: 63%; background: #00f2fe; box-shadow: 0 0 8px #00f2fe;"></div>
+        <div style="width: 37%; background: #ff007f; box-shadow: 0 0 8px #ff007f;"></div>
+      </div>
+    </div>
+
+    <!-- Talking Lang -->
+    <div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 3px; color: #aaa;">
+        <span>🗣️ My Talking Language</span>
+        <span>English 47% | Polish 53%</span>
+      </div>
+      <div style="display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: #222;">
+        <div style="width: 47%; background: #00f2fe;"></div>
+        <div style="width: 53%; background: #ffaa00; box-shadow: 0 0 8px #ffaa00;"></div>
+      </div>
+    </div>
+
+    <!-- Programming Lang -->
+    <div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 3px; color: #aaa;">
+        <span>🖥️ Programming Languages Split</span>
+        <span>Rust 89% | Asm 7% | Python 4%</span>
+      </div>
+      <div style="display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: #222;">
+        <div style="width: 89%; background: #ff007f; box-shadow: 0 0 8px #ff007f;"></div>
+        <div style="width: 7%; background: #9d00ff; box-shadow: 0 0 8px #9d00ff;"></div>
+        <div style="width: 4%; background: #ffaa00;"></div>
+      </div>
+    </div>
+
   </div>
 
 </div>
 
-<!-- NEONOWY FOOTER -->
-<div style="margin-top: 50px; opacity: 0.5; font-size: 0.8rem; color: #fff; font-family: monospace;">
-  ⚡ Powered by Cyberpunk HTML Template | © 2026 coffdage
+<!-- FOOTER -->
+<div style="margin-top: 40px; opacity: 0.3; font-size: 0.7rem; color: #fff; font-family: monospace; letter-spacing: 1px;">
+  🪷 COFFDAGE SYSTEM OVERVIEW // TERMINAL 2026
 </div>
 
 </div>
