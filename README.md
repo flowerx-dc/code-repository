@@ -8,7 +8,7 @@
 🪷 Hobbyst    - - - Rust, Truck Lover, Writer, Play Farming Simulator 17 <br>
 
 ## + Links:
-*Github Profile:* <br>
+**Github Profile:** <br>
 https://github.com/coffdage <br>
 *Github Organization:* <br>
 https://github.com/coffdage-intercom <br>
