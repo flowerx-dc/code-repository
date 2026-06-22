@@ -1,7 +1,7 @@
 # Profile Informations
 
 ## + Interest:
-🌺 Developer  - - - Rust
+🌺 Developer  - - - Rust <br>
 🩵 Writer     - - - Anything
 ⚙️ Informatic - - - Technic Informatic (Shool)
 🗃 Enginer    - - - (Soon)
