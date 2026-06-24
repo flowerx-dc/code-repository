@@ -20,8 +20,7 @@
 
 <br/>
 
-╔═════════════════════════════════════════╗
-                                                             
+```                                                            
     > whoami                                                   
                                                            
     name       : coffdage                                      
@@ -33,8 +32,7 @@
     location   : Poland 🇵🇱                       
     focus      : [ CODE, Programs, Cool Websites, Usefull Program, Good Course And Lessons For Everyone, etc ]        
     currently  : Learning more programing languages, and learning Japan 🌸
-
-╚═════════════════════════════════════════╝
+```
 
 
 
