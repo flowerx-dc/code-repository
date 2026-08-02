@@ -25,7 +25,7 @@
                                                            
     name       : coffdage                                      
 
-    alias      : Flowerx                                    
+    alias      : coffdage                                    
 
     role       : Developer, Enginer, Writer                            
 
